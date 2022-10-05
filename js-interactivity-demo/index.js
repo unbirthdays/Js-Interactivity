@@ -73,6 +73,7 @@ function addNewFood() {
     let newPara = document.createElement('p');
     newPara.textContent = newFood;
     foodList.appendChild(newPara);
+    inputField.textContent = '';
 }
 
 console.log(foodList);
